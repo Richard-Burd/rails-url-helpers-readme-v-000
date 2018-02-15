@@ -8,6 +8,6 @@ class PostsController < ApplicationController
 	end
 
 	def burdaction
-
+    @post = Post.find(params[:id])
 	end
 end
